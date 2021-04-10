@@ -161,7 +161,7 @@ h8 {
   
   color: #1b28e2;
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 .h10,
 h10 {
@@ -3720,8 +3720,8 @@ fieldset:disabled .btn {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -6475,8 +6475,8 @@ fieldset:disabled .btn {
   padding-bottom: rem !important;
 }
 .p-9 {
-  padding-left: 14rem !important;
-  padding-right: 10rem;
+  padding-left: 11rem !important;
+  padding-right: 10rem !important;
 }
 .p-10 {
   margin-left: 10rem;
@@ -6747,7 +6747,7 @@ fieldset:disabled .btn {
   background-color: #ffffff !important;
 }
 .bg-info2{
-  background-color: #d2f5ff !important;
+  background-color: #e4f1ff !important;
 }
 .bg-info3{
   background-color: #004a99 !important;
@@ -6756,7 +6756,7 @@ fieldset:disabled .btn {
   background-color: #000000 !important;
 }
 .bg-info4{
-  background-color: #003874ab !important;
+  background-color: #000274af !important;
 }
 .bg-warning {
   background-color: #ffc107 !important;
