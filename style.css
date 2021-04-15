@@ -99,8 +99,7 @@ h6 {
     display: none !important;
   }
   .img-fluid {
-    max-width: 100%;
-    max-height: 100%;
+    max-height: 50px;
   }
   .img-fluid1 {
     max-width: 18%;
@@ -146,7 +145,7 @@ h9 {
 h8 {
   
   color: #1b28e2;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 .h15,
@@ -160,7 +159,7 @@ h15 {
 h10 {
   
   color: #1b28e2;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 .h12,
@@ -186,7 +185,7 @@ h14 {
 .h11,
 h11{
   color: rgb(31, 31, 31);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 700;
 }
 
@@ -209,7 +208,7 @@ h11{
   padding: 0rem !important;
 }
 .p-6 {
-  padding: 5.5rem !important;
+  padding: 5rem !important;
   
 }
 .p-7 {
@@ -230,23 +229,26 @@ h11{
   padding: 2.5rem !important;
 }
 .p-11 {
-  margin-left: 2.5rem;
+  margin-left: 2rem;
   padding-bottom: 4rem;
   
 }
 .p-12{
-  padding: 4rem;
+  padding: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 .p-13 {
   padding-top: 6rem !important;
-  padding-left: 4rem !important;
-  padding-right: 4rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
   padding-bottom: 6rem !important;
 }
 }
 @media (min-width: 576px) {
+  .img-fluid {
+    max-height: 75px;
+  }
   .h1,
   h1 {
     font-size: 2.5rem;
@@ -4179,7 +4181,7 @@ fieldset:disabled .btn {
 }
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
